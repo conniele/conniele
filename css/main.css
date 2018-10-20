@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+html, body {
+	font-family: "Josefin Sans", sans-serif;
+	font-size:20px;
+	background-color:#F28F3B;
+	color:#FFFFFF;
+	z-index:-2;
+
+}
+
+/*STROKE*/
+#head{
+    text-shadow: 5px 5px #C8553D;
+}
+
+.main-title {
+	font-size:5em;
+	letter-spacing: 3px;
+	transform:translateY(-50%);
+	text-align:right;
+	color:red;
+	-webkit-text-stroke: 2px white;
+	opacity: 0.85;
+	z-index:2;
+	font-family: "Oswald-Bold", sans-serif;
+}
+
+.main-title2 {
+	font-size:5em;
+	letter-spacing: 3px;
+	transform:translateY(-50%);
+	text-align:left;
+	color:#F28F3B;
+	-webkit-text-stroke: 2px #F9FFD0;
+	z-index:-10;
+	opacity: 0.2;
+	font-family: "Oswald-Bold", sans-serif;
+	word-wrap: 50%
+}
+
+.main-title3 {
+	font-size:5em;
+	letter-spacing: 3px;
+	transform:translateY(-50%);
+	text-align:rights;
+	color:#F28F3B;
+	-webkit-text-stroke: 2px #F9FFD0;
+	z-index:-1;
+	opacity: 0.1;
+	font-family: "Oswald-Bold", sans-serif;
+	word-wrap: 50%
+}
+
+.second-title {
+	font-size:38px;
+	transform:translateY(-50%);
+	text-align:right;
+	color:#FFD5C2;
+	z-index:0;
+	font-family: "Oswald", sans-serif;
+	font-weight: 300;
+	word-wrap:normal;
+
+}
+
+.third-head{
+	font-size:35px;
+	text-align:left;
+	color:#FFD5C2;
+	z-index:0;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight:700;
+	letter-spacing: 1px;
+	line-height: 45px;
+}
+
+#location{
+	font-size:20px;
+	text-align:left;
+	color:#FFFFFF;
+	z-index:0;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight:700;
+	letter-spacing:3px;
+	line-height: 25px;
+}
+#location2 {
+	font-size:20px;
+	text-align:right;
+	color:#FFFFFF;
+	z-index:1;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight:700;
+	letter-spacing:3px;
+	line-height: 25px;
+}
+
+#h4 { 
+	font-size:35px;
+	text-align:left;
+	color:red;
+	z-index:1;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight:700;
+	letter-spacing:3px;
+	line-height: 50px;
+}
+
+#b3 { 
+	font-size:15px;
+	text-align:left;
+	color:white;
+	z-index:1;
+	font-family: "Josefin Sans", sans-serif;
+	letter-spacing:3px;
+	line-height: 49px;
+}
+
+#b4 { 
+	font-size:12px;
+	text-align:left;
+	color:white;
+	z-index:1;
+	font-family: "Josefin Sans", sans-serif;
+	letter-spacing:2px;
+	line-height: 20px;
+}
+.daniel {
+	font-size:20px;
+	text-align:right;
+	color:white;
+	z-index:5;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight:700;
+	
+}
+
+p:hover, h1:hover, a:hover {
+    background-color: #588B8B;
+}
+
+#flip {
+  -moz-transform: scaleX(-1);    /* Gecko */
+  -o-transform: scaleX(-1);      /* Opera */
+  -webkit-transform: scaleX(-1); /* Webkit */
+  transform: scaleX(-1);         /* Standard */
+  filter: FlipH;                 /* IE 6/7/8 */
+}
+
+
+a:link {
+    color: #588B8B;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #C8553D;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: #588B8B;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: 80% 10% 10%;
+/*  border: 5px solid rgba(100, 100, 0, 0.8);*/
+  border-style: solid;
+  position: absolute;
+  top: -200px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+/*  border: 5px solid rgba(0, 0, 0, 0.8);*/
+  border-style: solid;
+  position: absolute;
+  top: 40px;
+    z-index: 5;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+/*  border: 5px solid rgba(0, 0, 0, 0.8);*/
+  border-style: solid;
+  position: absolute;
+  top: 1100px;
+  left:100px;
+  z-index: 4;
+}
+
+#cool {
+/*border: 3px solid rgba(250, 0, 0, 0.8);*/
+  grid-column-start:3;
+  width: 750px;
+
+}
+
+
+#circle {
+      width: 500px;
+      height: 500px;
+      background: red;
+      border-radius: 50%
+    }
+
+
+#rectangle {
+      width: 6px;
+      height: 450px;
+      background: red;
+    }
+  
+
+
+.grid-item {
+  /*border: 3px solid rgba(0, 100, 0, 0.8);*/
+  padding: 0px;
+  position:absolute;
+  left: -117px;
+  top:-209px;
+}
+
+/*BG Main Title*/
+.grid-item2 {
+/*  border: 3px solid rgba(0, 0, 0, 0.8);*/
+  padding: 1px;
+  position:absolute;
+  top:-159px;
+  width: 100%
+}
+
+/*Main Title*/
+
+.grid-item3 {
+/* border: 3px solid rgba(0, 0, 0, 0.8);*/
+  padding: 1px;
+  position:fixed;
+	top:317px;
+	left:750px;
+}
+
+/*Heading Twoo*/
+.grid-head2 {
+/*  border: 3px solid rgba(0, 0, 0, 0.8);*/
+  position: absolute;
+	top:625px;
+	left:760px;
+	z-index: 3;
+}
+
+/*Heading Three*/
+.grid-item5 {
+/* border: 3px solid rgba(0, 0, 0, 0.8);*/
+  grid-template-rows: : auto auto auto;
+  position: absolute;
+	top:930px;
+	left:40px;
+	z-index: 2;
+}
+/*circle*/
+.grid-item6 {
+/*	border: 3px solid rgba(0, 0, 0, 0.8);*/
+  position: absolute;
+	top:10px;
+	left:40px
+	z-index: -2;
+}
+
+.grid-item7 {
+	border: 5px solid rgba(255, 255, 255, 255);
+  position: absolute;
+	top:270px;
+	left:30px;
+	z-index: 0;
+	height:150px;
+	width: 150px;
+	padding: 10px;
+}
+/*Monday*/
+.grid-item8 {
+	border: 5px solid rgba(255, 255, 255, 255);
+  position: absolute;
+	top:170px;
+	left:380px;
+	z-index: 2;
+	height:150px;
+	width: 150px;
+	padding: 10px
+}
+
+/*Rectangle*/
+.grid-item9 {
+  position: absolute;
+	top:555px;
+	left:245px;
+	z-index: 2;
+	padding: 1px
+}
+
+/*GB Lecture*/
+.grid-item10 {
+border: 5px solid rgba(255, 0, 0, 0);
+  position: absolute;
+	top:-500px;
+	left:220px;
+	z-index: 0;
+	height:145px;
+	width: 190px;
+	padding: 10px
+}
+
+
+.grid-item21 {
+border: 5px solid rgba(255, 0, 0, 0);
+  position: absolute;
+	top:-370px;
+	left:-130px;
+	z-index: 0;
+	height:145px;
+	width: 190px;
+	padding: 10px
+}
+
+/*Ticket Body*/
+.grid-item11 {
+border: 5px solid rgba(255, 255, 255, 255);
+  position: absolute;
+	top:-370px;
+	left:220px;
+	z-index: 0;
+	height:190px;
+	width: 145px;
+	padding: 10px
+}
+/*Final Paragraph*/
+.grid-item12 {
+/*border: 5px solid rgba(255, 255, 255, 255);*/
+  position: absolute;
+	top:-90px;
+	left:-160px;
+	z-index: 2;
+	height:300px;
+	width: 550px;
+	padding: 10px
+}
+
+.grid-item13 {
+/*border: 5px solid rgba(255, 255, 255, 255);*/
+  position: absolute;
+	top:260px;
+	left:568px;
+	z-index: 5;
+	height:90px;
+	width: 580px;
+	padding: 10px;
+}
+
+.grid-item14 {
+/*border: 5px solid rgba(255, 255, 255, 255);*/
+  position: absolute;
+	top:294px;
+	left:577px;
+	z-index: 5;
+
+}
+ #rectangle2 {
+      width: 345px;
+      height: 6px;
+      background: red;
+    }
