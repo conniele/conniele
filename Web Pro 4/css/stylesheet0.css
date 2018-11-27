@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre|Abril+Fatface|Cantata+One|Cormorant|Libre+Baskerville|Lora|Nanum+Myeongjo|Playfair+Display|Prata|Rufina|Sorts+Mill+Goudy|Unna|Yeseva+One');
+
+
+html, body {
+	font-family: 'Prata', serif;
+	font-size:30px;
+	background-color: black;
+	color: white;
+
+}
+
+img {max-width: 100%}
+
+.h1 {
+	font-family: 'Prata', serif;
+	font-size: 200px;
+	max-width: 100%;
+	margin-top: 10px;
+	top: 50px;
+}
+
+#grid-container {
+  display: grid;
+  border-style: none;
+  position: absolute;
+  top: 900px;
+  left:200px;
+  max-width: 700px;
+}
+
+a:link {
+    color: #588B8B;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffbf0d;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: #588B8B;
+    background-color: transparent;
+    text-decoration: underline;
+}

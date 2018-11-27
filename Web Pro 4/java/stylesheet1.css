@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre|Abril+Fatface|Cantata+One|Cormorant|Libre+Baskerville|Lora|Nanum+Myeongjo|Playfair+Display|Prata|Rufina|Sorts+Mill+Goudy|Unna|Yeseva+One');
+
+
+html, body {
+	font-family: 'Prata', serif;
+	font-size:20px;
+}
+
+.blue {
+	font-family: 'Prata', serif;
+	font-size: 1000px;
+}
