@@ -1,0 +1,58 @@
+.holder {
+  /* Clip edges, as some of the lines don't terminate nicely. */
+    overflow: hidden;
+    position: absolute;
+    width: 700px;
+    height:100px;
+    top:700px;
+    left:355px;
+    z-index: 2;
+}
+
+.holder2 {
+  /* Clip edges, as some of the lines don't terminate nicely. */
+    overflow: hidden;
+    position: absolute;
+    width: 700px;
+    height:100px;
+    top:660px;
+    left:380px;
+    z-index: 2;
+}
+.ellipse {
+    position: absolute;
+    background: radial-gradient(ellipse, transparent, transparent 7px, white 7px, white 10px, transparent 11px);
+    background-size: 36px 40px;
+    width: 400px;
+    height: 20px;
+     z-index: 2;
+}
+
+.ellipse2 {
+    top: 20px;
+    left: 18px;
+    background-position: 0px -20px;
+        z-index: 2;
+}
+
+.holder3 {
+  /* Clip edges, as some of the lines don't terminate nicely. */
+    overflow: hidden;
+    position: absolute;
+    width: 700px;
+    height:100px;
+    top:660px;
+    left:380px;
+    z-index: 3;
+}
+
+.holder4 {
+  /* Clip edges, as some of the lines don't terminate nicely. */
+    overflow: hidden;
+    position: absolute;
+    width: 700px;
+    height:100px;
+    top:660px;
+    left:380px;
+    z-index: 3;
+}

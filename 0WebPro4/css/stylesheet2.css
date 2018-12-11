@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i');
+
+html, body {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	font-size:30px;
+	background-color: black;
+	color: white;
+
+}
+img {max-width: 100%}
+
+.p1 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 120px;
+	left:840px;
+}
+
+
+.p2 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top:180px;
+	left:840px;
+}
+
+.p3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 240px;
+	left:840px;
+}
+
+.p4 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 300px;
+	left:840px;
+}
+
+.p5 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 360px;
+	left:840px;
+}
+ .p6 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  max-width: 100%;
+  margin-top: 10px;
+  position:absolute;
+  top: 420px;
+  left:840px;
+}
+
+ .p7 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  max-width: 100%;
+  margin-top: 10px;
+  position:absolute;
+  top: 480px;
+  left:840px;
+}
+.foot{
+	font-size: 20px;
+	letter-spacing: 4px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 650px;
+	left:1100px;
+}
+
+.grad1 {
+  background-image: linear-gradient(to bottom right, #ed1c24 , #ffc41c);
+}
+/*STICK*/
+  #circle {
+      width: 120px;
+      height: 120px;
+      background: linear-gradient(to right, #ed1c24 , #ffc41c);
+      border-radius: 50%;
+      position:absolute;
+      border-width: 10px;
+      z-index: 1;
+    }
+
+  #circle2 {
+      width: 120px;
+      height: 120px;
+      background: linear-gradient(to bottom right, #ed1c24 , #ffc41c);
+      border-radius: 50%;
+      position:absolute;
+      border-width: 10px;
+      z-index: 1;
+      top: 180px;
+      left:265px;
+    }
+
+#circle3 {
+      width: 120px;
+      height: 120px;
+      background: linear-gradient(-180deg, #ed1c24 , #ffc41c);
+      border-radius: 50%;
+      position:absolute;
+      border-width: 10px;
+      z-index: 1;
+      top:330px;
+      left:525px;
+    }
+
+#circle4 {
+      width: 120px;
+      height: 120px;
+      background: linear-gradient(-180deg, #ed1c24 , #ed8a29);
+      border-radius: 50%;
+      position:absolute;
+      border-width: 10px;
+      z-index: 1;
+      top:570px;
+      left:800px;
+    }
+
+  #rectangle {
+      width: 420px;
+      height: 600px;
+      background: black;
+      border-style: solid;
+      border-color: white;
+      border-width: 10px;
+      position:absolute;
+      top:90px;
+      left:375px;
+      z-index: 1;
+    }
+#horizon {
+      width: 420px;
+      height: 290px;
+      background: black;
+      border-style: solid;
+      border-color: white;
+      border-width: 10px;
+      position:absolute;
+      top:400px;
+      left:375px;
+      z-index: 3;
+    }

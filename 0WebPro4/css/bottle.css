@@ -1,0 +1,56 @@
+.star{
+	font-size:180px;
+	color: white;
+	position:absolute;
+	top: 250px; 
+	left:820px;
+	z-index:3;"
+	border-color: white;
+	border-style: double;
+	border-radius: 25px;
+}
+  .high1 {
+      width: 3px;
+      height: 250px;
+      background: white;
+      position: absolute;
+      border-radius: 30px;
+      top: 450px;
+      left:805px;
+      z-index: 4;
+    }
+    .high2 {
+      width: 3px;
+      height: 150px;
+      transform: rotate(09deg);
+      background: white;
+      position: absolute;
+      border-radius: 30px;
+      top: 242px;
+      left:838px;
+      z-index: 4;
+    }
+
+
+/*bottle*/
+ #talkbubble {
+      width: 320px;
+      height: 120px;
+      background: #ffc41c;
+      position: relative;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 30px;
+    }
+    #talkbubble:before {
+      content: "";
+      position: absolute;
+      right: 98%;
+      top:17px;
+      width: 10px;
+      height: 25px;
+      border-top: 30px solid transparent;
+      border-right: 180px solid #ffc41c;
+      border-bottom: 30px solid transparent;
+      border-radius: 19px;
+    }

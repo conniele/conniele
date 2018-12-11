@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@font-face { font-family: Bitsy; src: url('Bitsy.ttf'); } 
+@font-face { font-family: MiniStrzalki; src: url('MiniStrzalki.ttf'); } 
+
+html, body {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	font-size:30px;
+	background-color: black;
+	color: white;
+
+}
+img {max-width: 100%}
+
+.star{
+	font-size:180px;
+	color: white;
+	position:absolute;
+	top: 250px; 
+	left:820px;
+	z-index:3;"
+	border-color: white;
+	border-style: double;
+	border-radius: 25px;
+}
+  .high1 {
+      width: 3px;
+      height: 250px;
+      background: white;
+      position: absolute;
+      border-radius: 30px;
+      top: 450px;
+      left:805px;
+      z-index: 4;
+    }
+    .high2 {
+      width: 3px;
+      height: 150px;
+      transform: rotate(09deg);
+      background: white;
+      position: absolute;
+      border-radius: 30px;
+      top: 242px;
+      left:838px;
+      z-index: 4;
+    }
+
+
+/*bottle*/
+ #talkbubble {
+      width: 320px;
+      height: 120px;
+      background: #ffc41c;
+      position: relative;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 30px;
+    }
+    #talkbubble:before {
+      content: "";
+      position: absolute;
+      right: 98%;
+      top:17px;
+      width: 10px;
+      height: 25px;
+      border-top: 30px solid transparent;
+      border-right: 180px solid #ffc41c;
+      border-bottom: 30px solid transparent;
+      border-radius: 19px;
+    }
+/*text*/
+
+#grad {
+  background: -webkit-linear-gradient(#FFFFFF, #f9da95);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#grada {
+  background: -webkit-linear-gradient(#f9da95, #ffc41c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.p1 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 120px;
+	left:120px;
+}
+
+
+.p2 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top:180px;
+	left:120px;
+}
+
+.p3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 240px;
+	left:120px;
+}
+
+.p4 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 300px;
+	left:120px;
+}
+
+.p5 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 360px;
+	left:120px;
+}
+
+.p6 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 420px;
+	left:120px;
+}
+
+.p7 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 480px;
+	left:120px;
+}
+
+.foot{
+	font-size: 20px;
+	letter-spacing: 4px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 650px;
+	left:1100px;
+}
+/*Background*/
+
+ #line {
+      width: 485px;
+      height: 10px;
+      background: white;
+      position: absolute;
+      top: 380px;
+      left:858px;
+      z-index: 4;
+    }
+  #rectangle {
+      width: 470px;
+      height: 500px;
+      background: black;
+      border-style: solid;
+      border-color: white;
+      border-width: 10px;
+      position:absolute;
+      top:90px;
+      left:855px;
+      z-index: -1;
+    }
+
+#circle {
+    width: 200px;
+    height: 100px; /* as the half of the width */
+    background-color: white;
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 10px solid #ffc41c;
+    border-bottom: 0;
+}
+
+#circlea {
+    width: 100px;
+    height: 50px; /* as the half of the width */
+    background-color: white;
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 10px solid #ffc41c;
+    border-bottom: 0;
+}
+#circleb {
+    width: 200px;
+    height: 150px; /* as the half of the width */
+    background-color: white;
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 10px solid #ffc41c;
+    border-bottom: 0;
+}
+.posa{
+	position: absolute;
+	top: 600px;
+	left: 600px;
+}   
+.posb{
+	position: absolute;
+	top: 560px;
+	left: 550px;
+	z-index: -1;
+}   
+.posc{
+	position: absolute;
+	top: 600px;
+	left: 480px;
+}   
+
+.posd{
+	position: absolute;
+	top: 600px;
+	left: 700px;
+}   
+.pose{
+	position: absolute;
+	top: 650px;
+	left: 550px;
+}   
+
+.posf{
+	position: absolute;
+	top: 680px;
+	left: 590px;
+}   
+.posg{
+	position: absolute;
+	top: 650px;
+	left: 320px;
+}   
+
+.posh{
+	position: absolute;
+	top: 610px;
+	left: 420px;
+	z-index: -1;
+}  

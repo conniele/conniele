@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i');
+
+html, body {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	font-size:30px;
+	background-color: black;
+	color: white;
+
+}
+img {max-width: 100%}
+
+a.one {
+    background: transparent;
+    height:1px; 
+    width:0px;
+    vertical-align: middle;
+    z-index: 13;
+}
+
+#position0{
+	position: absolute;
+	top:40px;
+	left:60px;
+}
+
+a.two {
+    background: transparent;
+    height:10px; 
+    width:5px;
+    vertical-align: middle;
+    z-index: 13;
+}
+
+#position1{
+	position: absolute;
+	top:470px;
+	left:540px;
+}
+.m1 {
+	font-size: 100px;
+	letter-spacing: 10px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 50px;
+	left:990px;
+}
+
+
+.m2 {
+	font-size: 100px;
+	letter-spacing: 10px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top:200px;
+	left:990px;
+}
+
+.m3 {
+	font-size: 100px;
+	letter-spacing: 10px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 350px;
+	left:990px;
+}
+
+.m4 {
+	font-size: 100px;
+	letter-spacing: 10px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 500px;
+	left:990px;
+}
+/*& Honey*/
+.h1 {
+	font-size: 100px;
+	letter-spacing: 10px;
+	max-width: 100%;
+	margin-top: 10px;
+	color: #ffc41c;
+	position:absolute;
+	top:650px;
+	left:790px;
+}
+.r1 {
+	font-size: 100px;
+	letter-spacing: 10px;
+	max-width: 100%;
+	margin-top: 10px;
+	color: #ffc41c;
+	position:absolute;
+	top:650px;
+	left:80px;
+}
+
+.k1{
+	font-size: 100px;
+	letter-spacing: 10px;
+	max-width: 100%;
+	margin-top: 10px;
+	color: white;
+	position:absolute;
+	top:330px;
+	left:75px;
+}
+.k2{
+	font-size: 100px;
+	letter-spacing: 10px;
+	max-width: 100%;
+	margin-top: 10px;
+	color: white;
+	position:absolute;
+	top:440px;
+	left:75px;
+}
+
+.k3{
+	font-size: 100px;
+	letter-spacing: 10px;
+	max-width: 100%;
+	margin-top: 10px;
+	color: white;
+	position:absolute;
+	top:550px;
+	left:75px;
+}
+  #circle {
+      width: 400px;
+      height: 400px;
+      background: #ffc41c;
+      border-radius: 50%;
+      position:absolute;
+      top: 10px;
+      left:500px;
+      z-index: 1;
+    }
+
+#grid{
+	position: absolute;
+	max-width: 50%;
+	top:38px;
+	left:170px;
+	z-index: 2;
+}
+
+  #rectangle {
+      width: 400px;
+      height: 600px;
+      background: none;
+      border-style: solid;
+      border-color: white;
+      border-width: 10px;
+      position:absolute;
+      top:20px;
+      left:925px;
+      z-index: 1;
+    }
+
+
+  #square {
+      width: 200px;
+      height: 210px;
+      background: #ffc41c;
+      border-style: solid;
+      border-color: white;
+      border-width: 10px;
+      position:absolute;
+      top:227px;
+      left:280px;
+      z-index: 3;
+    }
+
+#circle3 {
+      width: 180px;
+      height: 180px;
+      background: linear-gradient(-180deg, #ed1c24 , #ffc41c);
+      border-radius: 50%;
+      position:absolute;
+      border-width: 10px;
+      z-index: 4;
+      top:450px;
+      left:650px;
+    }
+
+
+#position2{
+	position: absolute;
+	top:500px;
+	left:600px;
+}

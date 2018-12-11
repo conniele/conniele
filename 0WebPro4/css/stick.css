@@ -1,0 +1,72 @@
+/*STICK*/
+a {
+    display:inline-block; 
+    height:100px; 
+    width:20px;
+    border: 30px solid transparent; 
+    border-top: 50px solid ##ffc41c;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+
+
+  #circlea {
+      width: 100px;
+      height: 100px;
+      background: #ffc41c;
+      border-radius: 50%;
+      border-color: white;
+      border-style: solid;
+      position:absolute;
+      border-width: 10px;
+      z-index: 1;
+    }
+
+.pos{
+  	position: absolute;
+  	top: 450px;
+  	left: 200px;
+  }  
+ #stick {
+      width:15px;
+      height:120px;
+      background: white;
+      position:absolute;
+      
+    }
+ .posa{
+  	position: absolute;
+  	top:550px;
+    left:253px;
+  }
+  #oval {
+      width: 70px;
+      height: 35px;
+      background: white;
+      border-radius: 100px / 50px;
+ 		z-index: 1;
+    }
+.posb{
+  	position: absolute;
+  	top:650px;
+    left:225px;
+  }
+
+
+#ovala {
+      width: 100px;
+      height: 70px;
+      background: black;
+      border-radius: 50%;
+      border-color: white;
+      border-style: solid;
+      position:absolute;
+      border-width: 10px;
+      z-index: -1;
+    }
+.posd{
+  	position: absolute;
+  	top: 622px;
+  	left: 200px;
+  }  

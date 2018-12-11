@@ -1,0 +1,335 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@font-face { font-family: Bitsy; src: url('Bitsy.ttf'); } 
+@font-face { font-family: MiniStrzalki; src: url('MiniStrzalki.ttf'); } 
+
+html, body {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	font-size:30px;
+	background-color: black;
+	color: white;
+
+}
+img {max-width: 100%}
+
+.p1 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 120px;
+	left:820px;
+}
+
+
+.p2 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top:180px;
+	left:820px;
+}
+
+.p3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 240px;
+	left:820px;
+}
+
+.p4 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 300px;
+	left:820px;
+}
+
+.p5 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 360px;
+	left:820px;
+}
+
+.foot{
+	font-size: 20px;
+	letter-spacing: 4px;
+	max-width: 100%;
+	margin-top: 10px;
+	position:absolute;
+	top: 650px;
+	left:1100px;
+}
+
+/*TV*/
+.text{
+position: absolute;
+	top: 150px;
+	left:435px;
+	font-family: 'Press Start 2P', cursive;
+	font-weight: 700;
+	font-size:70px;
+	letter-spacing: 3px;
+	color: white;
+	z-index: 3;
+}
+.textp{
+position: absolute;
+	top: 360px;
+	left:470px;
+	font-family: 'Press Start 2P', cursive;
+	font-weight: 700;
+	font-size:30px;
+	color: white;
+	z-index: 3;
+}
+
+#textheart{
+   position: absolute;
+	top: 270px;
+	left:480px;
+	font-family: 'Bitsy';
+	letter-spacing: 2px;
+	font-size:50px;
+	color: white;
+	z-index: 4;
+}
+
+#texthearta{
+   position: absolute;
+	top: 170px;
+	left:80px;
+	font-family: 'Bitsy';
+	letter-spacing: 2px;
+	font-size:50px;
+	color: white;
+	z-index: 4;
+}
+
+#textheartb{
+   position: absolute;
+	top: 400px;
+	left:1000px;
+	font-family: 'Bitsy';
+	letter-spacing: 2px;
+	font-size:50px;
+	color: white;
+	z-index: 4;
+}
+.pheart{}
+
+    #tv {
+      position: relative;
+      width: 350px;
+      height: 290px;
+      margin: 20px 0;
+      background: black;
+      border-radius: 50% / 10%;
+      color: white;
+      text-align: center;
+      text-indent: .1em;
+      z-index: 2;
+    }
+    
+    #tv:before {
+      content: '';
+      position: absolute;
+      top: 10%;
+      bottom: 10%;
+      right: -5%;
+      left: -5%;
+      background: inherit;
+      border-radius: 5% / 50%;
+    }
+  .postv{
+  	position: absolute;
+  	top: 140px;
+  	left: 390px;
+  }  
+
+/*STICK*/
+  #circle {
+      width: 100px;
+      height: 100px;
+      background: #ffc41c;
+      border-radius: 50%;
+      border-color: white;
+      border-style: solid;
+      position:absolute;
+      border-width: 10px;
+      z-index: 1;
+    }
+
+.pos{
+  	position: absolute;
+  	top: 450px;
+  	left: 200px;
+  }  
+ #stick {
+      width:15px;
+      height:120px;
+      background: white;
+      position:absolute;
+      
+    }
+ .posa{
+  	position: absolute;
+  	top:550px;
+    left:253px;
+  }
+  #oval {
+      width: 70px;
+      height: 35px;
+      background: white;
+      border-radius: 100px / 50px;
+ 		z-index: 1;
+    }
+.posb{
+  	position: absolute;
+  	top:650px;
+    left:225px;
+  }
+
+
+#ovala {
+      width: 100px;
+      height: 70px;
+      background: black;
+      border-radius: 50%;
+      border-color: white;
+      border-style: solid;
+      position:absolute;
+      border-width: 10px;
+      z-index: -1;
+    }
+.posd{
+  	position: absolute;
+  	top: 622px;
+  	left: 200px;
+  }  
+
+   #circleb {
+      width: 80px;
+      height: 80px;
+      background: #ffc41c;
+      border-radius: 50%;
+      border-color: white;
+      border-style: solid;
+      position:absolute;
+      border-width: 10px;
+      z-index: 0;
+    }
+.pose{
+  	position: absolute;
+  	top: 550px;
+  	left: 350px;
+  }  
+
+
+  #circlec {
+      width: 40px;
+      height: 40px;
+      background: #ffc41c;
+      border-radius: 50%;
+      border-color: white;
+      border-style: solid;
+      position:absolute;
+      border-width: 10px;
+      z-index: 1;
+    }
+
+.posf{
+  	position: absolute;
+  	top: 570px;
+  	left: 370px;
+  }  
+
+.posg{
+  	position: absolute;
+  	top: 590px;
+  	left: 460px;
+  }  
+
+.posh{
+  	position: absolute;
+  	top: 610px;
+  	left: 480px;
+  }  
+
+/*Right Stick*/
+
+  .posi{
+  	position: absolute;
+  	top: 450px;
+  	left: 600px;
+  }  
+
+  .posj{
+  	position: absolute;
+  	top:550px;
+    left:653px;
+}
+
+.posk{
+  	position: absolute;
+  	top:650px;
+    left:625px;
+  }
+
+  .posl{
+  	position: absolute;
+  	top: 622px;
+  	left: 600px;
+  }  
+  .posm{
+  	position: absolute;
+  	top: 550px;
+  	left: 750px;
+  } 
+
+.posn{
+  	position: absolute;
+  	top: 570px;
+  	left: 770px;
+  }  
+
+.poso{
+  	position: absolute;
+  	top: 590px;
+  	left: 860px;
+  }  
+
+
+.posp{
+  	position: absolute;
+  	top: 610px;
+  	left: 880px;
+  }  
+
+  #rectangle {
+      width: 420px;
+      height: 400px;
+      background: #ffc41c;
+      border-style: solid;
+      border-color: white;
+      border-width: 10px;
+      position:absolute;
+      top:90px;
+      left:355px;
+      z-index: 1;
+    }
+}
